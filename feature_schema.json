@@ -1,0 +1,104 @@
+{
+    "feature_columns": [
+        "age",
+        "sex",
+        "cp",
+        "trestbps",
+        "chol",
+        "fbs",
+        "restecg",
+        "thalach",
+        "exang",
+        "oldpeak",
+        "slope",
+        "ca",
+        "thal"
+    ],
+    "numeric_features": [
+        "age",
+        "trestbps",
+        "chol",
+        "thalach",
+        "oldpeak"
+    ],
+    "categorical_features": [
+        "sex",
+        "cp",
+        "fbs",
+        "restecg",
+        "exang",
+        "slope",
+        "ca",
+        "thal"
+    ],
+    "numeric_stats": {
+        "age": {
+            "min": 29.0,
+            "max": 77.0,
+            "median": 55.5
+        },
+        "trestbps": {
+            "min": 94.0,
+            "max": 200.0,
+            "median": 130.0
+        },
+        "chol": {
+            "min": 126.0,
+            "max": 564.0,
+            "median": 240.5
+        },
+        "thalach": {
+            "min": 71.0,
+            "max": 202.0,
+            "median": 152.5
+        },
+        "oldpeak": {
+            "min": 0.0,
+            "max": 6.2,
+            "median": 0.8
+        }
+    },
+    "category_options": {
+        "sex": [
+            1,
+            0
+        ],
+        "cp": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "fbs": [
+            0,
+            1
+        ],
+        "restecg": [
+            1,
+            0,
+            2
+        ],
+        "exang": [
+            0,
+            1
+        ],
+        "slope": [
+            2,
+            0,
+            1
+        ],
+        "ca": [
+            2,
+            0,
+            1,
+            3,
+            4
+        ],
+        "thal": [
+            3,
+            2,
+            1,
+            0
+        ]
+    }
+}
